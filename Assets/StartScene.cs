@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class StartScene : MonoBehaviour {
 
-    public void LoadScene()
+    public void LoadForestScene()
     {
         SceneManager.LoadScene("Demo");
     }
+
+    public void LoadBeachScene()
+    {
+        SceneManager.LoadScene("Strand");
+    }
+
+
 }
