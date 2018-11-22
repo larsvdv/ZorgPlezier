@@ -7,7 +7,7 @@ public class StartScene : MonoBehaviour {
 
     public void LoadForestScene()
     {
-        SceneManager.LoadScene("Demo");
+        SceneManager.LoadScene("Bos");
     }
 
     public void LoadBeachScene()
