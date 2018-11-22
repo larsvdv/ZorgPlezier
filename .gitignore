@@ -4,9 +4,9 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
-Assets/
-!Assets/Plugins/Bridge
+Assets/*
 !Assets/Scenes
+!Assets/Plugins
 
 # Visual Studio cache directory
 .vs/
