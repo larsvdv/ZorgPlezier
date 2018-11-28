@@ -295,7 +295,10 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
+<<<<<<< HEAD
+=======
     - None
+>>>>>>> origin/develop
     - cardboard
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
@@ -587,7 +590,16 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
+<<<<<<< HEAD
+  webGLLinkerTarget: 1
+  scriptingDefineSymbols:
+    1: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
+=======
   scriptingDefineSymbols: {}
+>>>>>>> origin/develop
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
