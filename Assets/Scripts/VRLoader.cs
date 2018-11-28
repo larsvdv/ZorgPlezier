@@ -4,17 +4,32 @@ using UnityEngine;
 using UnityEngine.XR;
 
 public class VRLoader : MonoBehaviour {
-
+    public bool needsVR;
 	// Use this for initialization
 	void Awake ()
 	{
-	    StartCoroutine(LoadDevice("Oculus"));
+        if (needsVR == true)
+        {
+            StartCoroutine(LoadCardboard());
+        }
+        else
+        {
+            StartCoroutine(LoadNone());
+        }
+
 	}
 
-    IEnumerator LoadDevice(string newDevice)
+    IEnumerator LoadCardboard()
     {
-        XRSettings.LoadDeviceByName(newDevice);
+        XRSettings.LoadDeviceByName("Cardboard");
         yield return null;
         XRSettings.enabled = true;
+    }
+
+    IEnumerator LoadNone()
+    {
+        XRSettings.LoadDeviceByName("None");
+        yield return null;
+        XRSettings.enabled = false;
     }
 }
