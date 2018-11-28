@@ -765,8 +765,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 892752635}
-  m_LocalRotation: {x: 0.27656683, y: 0.49958876, z: 0.17213759, w: -0.80267715}
-  m_LocalPosition: {x: 280.81396, y: -154.96542, z: 91.09602}
+  m_LocalRotation: {x: 0.34697908, y: 0.5509519, z: 0.26942196, w: -0.7095558}
+  m_LocalPosition: {x: 180.39583, y: -48.32762, z: 130.5834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1630,6 +1630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1752684106}
   - component: {fileID: 1752684107}
+  - component: {fileID: 1752684108}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -1662,6 +1663,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   needsVR: 1
+--- !u!114 &1752684108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1752684105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30f2248eda5b0e4cb669f739c55298f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1965712293
 Prefab:
   m_ObjectHideFlags: 0
