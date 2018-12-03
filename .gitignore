@@ -69,10 +69,5 @@ sysinfo.txt
 
 *.unitypackage
 
-<<<<<<< HEAD
-
-
 Assets/UnimportantAssets/
-=======
-Assets/UnimportantAssets/
->>>>>>> origin/develop
+
