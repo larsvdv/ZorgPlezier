@@ -675,8 +675,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 67448891}
-  m_LocalRotation: {x: 0.08426287, y: 0.8804564, z: 0.43416077, w: -0.17088255}
-  m_LocalPosition: {x: 365.8361, y: -76.36128, z: 1566.773}
+  m_LocalRotation: {x: 0, y: 0.9984987, z: 0, w: 0.054776017}
+  m_LocalPosition: {x: 96.8, y: 14.139999, z: 1601.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5897,6 +5897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679871869}
   - component: {fileID: 679871868}
+  - component: {fileID: 679871870}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionCamera
   m_TagString: Untagged
@@ -5950,13 +5951,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679871867}
-  m_LocalRotation: {x: 0, y: 0.9809552, z: 0, w: 0.19423446}
-  m_LocalPosition: {x: 96.8, y: 14.139999, z: 1601.8}
+  m_LocalRotation: {x: -0.073314525, y: 0.88343734, z: 0.14767168, w: 0.43858477}
+  m_LocalPosition: {x: 519.98505, y: -17.592041, z: 1458.3147}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &679871870
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 679871867}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &682044139
 GameObject:
   m_ObjectHideFlags: 0
@@ -13209,14 +13218,14 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 2012.73
   field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 305
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -15638,7 +15647,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 39.7
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalPosition.z
@@ -15666,15 +15675,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalScale.x
-      value: 10.886778
+      value: 15.254499
       objectReference: {fileID: 0}
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalScale.y
-      value: 10.886778
+      value: 17.02876
       objectReference: {fileID: 0}
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalScale.z
-      value: 10.886778
+      value: 17.927277
       objectReference: {fileID: 0}
     - target: {fileID: 4179600558862350, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalPosition.y
@@ -15699,6 +15708,21 @@ Prefab:
     - target: {fileID: 4161451654569526, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -10.165001
+      objectReference: {fileID: 0}
+    - target: {fileID: 205516209502551206, guid: 60f00f9b917704995bf06e2fd3c2c543,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 205516209502551206, guid: 60f00f9b917704995bf06e2fd3c2c543,
+        type: 2}
+      propertyPath: m_FadeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 205516209502551206, guid: 60f00f9b917704995bf06e2fd3c2c543,
+        type: 2}
+      propertyPath: m_AnimateCrossFading
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f00f9b917704995bf06e2fd3c2c543, type: 2}
