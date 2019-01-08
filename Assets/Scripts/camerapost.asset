@@ -42,13 +42,13 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.4
+      intensity: 2.39
       radius: 0.3
-      sampleCount: 10
+      sampleCount: 16
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
-      highPrecision: 0
+      highPrecision: 1
   screenSpaceReflection:
     m_Enabled: 0
     m_Settings:
@@ -124,7 +124,7 @@ MonoBehaviour:
         temperature: 1.7
         tint: 3.5
         hueShift: 0
-        saturation: 1.156
+        saturation: 1.445
         contrast: 1.035
       channelMixer:
         red: {x: 0.97, y: -0.13, z: 0.1}
